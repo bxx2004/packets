@@ -1,5 +1,5 @@
 # packets
-在我的世界客户端与服务器端进行通讯的工具，需自行在各平台实现. 例：on-taboolib 的PacketSender实现
+在我的世界客户端与服务器端进行通讯的工具，需自行在各平台实现. 例：on-bukkit 的PacketSender实现
 
 ```kotlin
 class BukkitSender(val player: Player) : PacketSender {
